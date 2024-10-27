@@ -53,6 +53,13 @@ figure img {
 	max-width: 600px;
 	display: block;
 	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-style: Sacramento;
+	margin-top: 3%;
+}
 
 Footer{
 	border: solid;
