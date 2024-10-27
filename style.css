@@ -43,7 +43,7 @@ nav ul li {
 section {
 	border:solid;
 	border-width: 3%;
-	border-color:black;
+	border-color:white;
 	padding:3%;
 }
 
@@ -55,8 +55,8 @@ figure img {
 	margin: 0 auto;
 }
 .larger figure img {
-width: 100px;
-height: 100px;
+width: 100%;
+height: 130%;
 	
 }
 
@@ -87,10 +87,13 @@ Footer{
 	border-width:3%;
 	border-color:#ff99cc;
 	background-color:#ff99cc;
-	color:white;
 	text-align:center;
-	font-size:0.8rem;
 	padding:3%;
+}
+
+footer p {
+	color:white;
+	font-size: 0.8rem;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -100,6 +103,21 @@ Footer{
 	}
 	h2 {
 		color:pink;
+		width:100%;
+		text-align: center;
+	}
+	article h2, article p {
+		text-align: center;
+		,argin :0 auto;
+		max-width: 800px
+	}
+	
+	article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 2%;
 	}
 	nav {
 		background-color: magenta;
@@ -113,3 +131,23 @@ Footer{
 		border-color: pink;
 	}
 }
+
+@media (min-width:1024px) {
+	
+		h1 {
+		color:blue;
+		font-size:5rem;
+	}
+	h2 {
+		color:blue;
+		font-size:3rem;
+	}
+	p {
+		font-size:1.25rem
+	}
+	nav {
+		background-color: blue;
+	}
+	nav ul li {
+		font-size: 1.25rem
+	}
