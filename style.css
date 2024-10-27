@@ -47,6 +47,13 @@ section {
 	padding:3%;
 }
 
+figure img {
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+	display: block;
+	margin: 0;
+
 Footer{
 	border: solid;
 	border-width:3%;
