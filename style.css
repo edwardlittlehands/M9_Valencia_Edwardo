@@ -65,21 +65,22 @@ figure img {
 	display: block;
 	margin: 0 auto;
 }
-/*
+
 .larger figure img {
-width: 600px;
-height: 600px;
+width: 450px;
+height: 300px;
 margin-top:0;
 padding-top:0;
 margin-bottom:1%;
 }
-*/
+
 
 .larger {
 	display:flex;
 	justify-content:center;
 	align-items: center;
-	margin: 20px 0;
+	margin-top: -20%;
+	margin:0;
 
 }
 
@@ -182,11 +183,11 @@ footer p {
 	nav ul li {
 		font-size: 1.25rem
 	}
-	
+	/*
 	.bigger .image-item {
 		width: calc(50% - 20 px);
 	}
-
+*/
 	footer{
 		border-color: #ac768e;
 	}
@@ -228,7 +229,13 @@ footer p {
 		text-align: center;
 	
 	}
-
+.larger figure img {
+width: 500px;
+height: 300px;
+margin-top:0;
+padding-top:0;
+margin-bottom:1%;
+}
 
  
 }
@@ -311,9 +318,19 @@ footer p {
 	font-size: 1rem;
 }
 
+.larger figure img {
+width: 1000px;
+height: 400px;
+margin-top:0;
+padding-top:0;
+margin-bottom:1%;
+}
+
+
+/*
 .imagesize {
 	width:900px
-	
+}	
 	
 	/*
 	.gallery img {
