@@ -204,6 +204,28 @@ footer p {
   clear: both;
   display: table;
 }
+
+		.gallery{
+			width:100%;
+		display:flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		align-items: center;
+		gap:20px;
+		flex-wrap: wrap;
+		padding: 20px;
+		}
+	.article .section .main {
+		width:100%;
+	}
+	
+	.gallery figure {
+		width:10%;
+		text-align: center;
+	
+	}
+
+
  
 }
 
@@ -231,16 +253,26 @@ footer p {
 			width:100%;
 		display:flex;
 		justify-content: space-between;
+		align-items: flex-start;
 		align-items: center;
-		gap:10px;
+		gap:20px;
 		flex-wrap: wrap;
-		padding 20px;
+		padding: 20px;
 		}
 	.article .section .main {
 		width:100%;
 	}
 	
 	.gallery figure {
-		width:30%;
+		width:10%;
+		text-align: center;
+	
 	}
+	/*
+	.gallery img {
+		width: 100%;
+		height: auto;
+		max-height: 300px;
+		object-fit:cover;
+	*/
 }
