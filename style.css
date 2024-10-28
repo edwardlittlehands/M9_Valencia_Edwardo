@@ -233,18 +233,18 @@ footer p {
 @media (min-width:1024px) {
 	
 		h1 {
-		color:blue;
+		color:red;
 		font-size:5rem;
 	}
 	h2 {
-		color:blue;
+		color:pink;
 		font-size:3rem;
 	}
 	p {
 		font-size:1.25rem
 	}
 	nav {
-		background-color: blue;
+		background-color: magenta;
 	}
 	nav ul li {
 		font-size: 1.25rem
@@ -268,6 +268,15 @@ footer p {
 		text-align: center;
 	
 	}
+	
+	.larger figure img {
+width: 100%;
+height: 600px;
+margin-top:0;
+padding-top:0;
+margin-bottom:1%;
+}
+	
 	/*
 	.gallery img {
 		width: 100%;
