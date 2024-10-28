@@ -1,13 +1,13 @@
 h1{
 	font-family: 'Sacramento', cursive;
-	color: red;
+	color: #e3acb1;
 	font-size: 3.5rem;
 	text-align:center;
 }
 
 h2{
 	font-family: 'Sacramento', cursive;
-	color: pink;
+	color: #e3adb1;
 	font-size: 2rem;
 	margin-bottom:2%;
 }
@@ -22,7 +22,7 @@ header {
 	padding:1rem;
 }
 nav {
-	background-color:magenta;
+	background-color:#ac768e;
 	margin-bottom:0;
 	padding-bottom:0;
 
@@ -33,7 +33,10 @@ nav ul {
 	padding:2%;
 }
 	
-
+nav ul li a {
+	color:white;
+	text-decoration:none;
+}
 	
 
 
@@ -50,7 +53,7 @@ nav ul li {
 section {
 	border:solid;
 	border-width: 1%;
-	border-color:black;
+	border-color:white;
 	padding:1rem;
 	margin-top:0;
 }
@@ -127,8 +130,8 @@ Figure {
 Footer{
 	border: solid 3%;
 	border-width:3%;
-	border-color:#ff99cc;
-	background-color:#ff99cc;
+	border-color:#ac768e;
+	background-color:#ac768e;
 	text-align:center;
 	padding:3%;
 }
@@ -141,7 +144,8 @@ footer p {
 @media (min-width: 768px) and (max-width: 1023px) {
 
 	h1 {
-		color:red;
+		color:  #e3acb1;
+
 	}
 	.gallery{
 		display:flex;
@@ -155,7 +159,7 @@ footer p {
 	
 	
 	h2 {
-		color:pink;
+		color:#e3adb1;
 		width:100%;
 		text-align: center;
 	}
@@ -173,7 +177,7 @@ footer p {
 		padding: 2%;
 	}
 	nav {
-		background-color: magenta;
+		background-color:#ac768e;
 	}
 	nav ul li {
 		font-size: 1.25rem
@@ -184,7 +188,7 @@ footer p {
 	}
 
 	footer{
-		border-color: pink;
+		border-color: #ac768e;
 	}
 
 
@@ -232,19 +236,19 @@ footer p {
 
 @media (min-width:1024px) {
 	
-		h1 {
-		color:red;
+	h1 {
+		color:#e3acb1;
 		font-size:5rem;
 	}
 	h2 {
-		color:pink;
+		color:#e3adb1;
 		font-size:3rem;
 	}
 	p {
 		font-size:1.25rem
 	}
 	nav {
-		background-color: magenta;
+		background-color: #ac768e;
 	}
 	nav ul li {
 		font-size: 1.25rem
@@ -264,18 +268,52 @@ footer p {
 	}
 	
 	.gallery figure {
-		width:10%;
+		width:15%;
 		text-align: center;
 	
 	}
 	
-	.larger figure img {
-width: 100%;
-height: 600px;
-margin-top:0;
-padding-top:0;
-margin-bottom:1%;
+	.larger {
+width:100%;
+height: auto;
+overflow:visible;
+margin:0;
+padding:0;
+position:relative;
+overflow:visible;
+
 }
+	
+	.larger img {
+max-width: 100%;
+max-height: 100vh;
+object-fit:overflow;
+
+}
+
+.img-banner {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position absolute;
+	top:0;
+	left:0;
+}
+.article .section .main {
+		width:100%;
+		height:auto;
+		overflow:visible;
+	}
+	
+	
+footer p {
+	color:white;
+	font-size: 1rem;
+}
+
+.imagesize {
+	width:900px
+	
 	
 	/*
 	.gallery img {
